@@ -1,0 +1,23 @@
+public class WhileLoopsConepts {
+
+	public static void main(String[] args) {
+		//you can also use break and continue in While loops
+		
+		int i=0;
+	  while(i < 10)
+		{
+			System.out.println(i);
+			i++;
+			if(i==4)
+			{
+				//break;
+				
+				continue;
+			}
+			System.out.println(i);
+			i++;
+		}
+	  
+	  
+
+	}
